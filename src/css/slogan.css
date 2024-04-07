@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: myFont-1;
+    src: url('./BenedictRegular.otf');
+   
+}
+.main-container-slogan{
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+    height: 140px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #f3e0dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.slogan-content{
+    
+    width: 90%;
+    font-size: 1.7em;
+    
+    font-family: "myFont-1";
+    height: 90%;
+    h3{
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    /* Your styles for screens between 300px and 800px go here */
+    .slogan-content{
+        font-size: 0.8em;
+    }
+    .main-container-slogan{
+        height: 80px;
+
+    }
+  }

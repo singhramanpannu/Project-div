@@ -1,0 +1,286 @@
+@font-face {
+    font-family: myFont-1;
+    src: url('./BenedictRegular.otf');
+   
+}
+@font-face {
+    font-family: myFont-light;
+    src: url('./metropolis-light.ttf');
+   
+}
+
+.main-container-contacts{
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    background-color: #5C2018;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #5C2018;
+ 
+    
+}
+.top-contacts-part{
+    width: 100%;
+    height: 85vh;
+    
+    display: flex;
+}
+
+.contact-information{
+    width: 30%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.map-contact{
+    width: 70%;
+    height: 100%;
+    padding-top: 15px;
+
+    
+}
+
+.contact-information .c-i-h1{
+   
+    width: 90%;
+    margin-top: 20px;
+    position: relative;
+    top: 50px;
+    color: #F3E0DC;
+    font-family: 'myFont-1';
+    font-size: 3em;
+    margin-left: 30px;
+    font-weight: 100;
+}
+
+.c-i-ul{
+   
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+  
+}
+
+.c-i-li{
+   
+    margin-bottom: 20px;
+    border-radius: 7px;
+    width: 100%;
+    height: 40px;
+    color: #F3E0DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+    position: relative;
+    right: 15px;
+    list-style-type: none;
+    font-size: 14px;
+ 
+}
+
+.icons{
+    margin-right: 10px;
+    font-size: 1.3em;
+   
+}
+.icon-1{
+    position: relative;
+    right: 0.1px;
+}
+.icon-2{
+    position: relative;
+    
+}
+.icon-3{
+    position: relative;
+   
+}
+.icon-4{
+    position: relative;
+    
+}
+.align-krdo{
+    position: relative;
+    
+}
+.c-i-li:hover {
+ background-color: #F3E0DC;
+ color: #5C2018;
+ font-weight: 600;
+ text-decoration: none;
+}
+
+
+.lower-copyright-part{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.5px solid #BC4639;
+    
+}
+.lower-left-side{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F3E0DC;
+    font-size: 13px;
+}
+
+.lower-right-side{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F3E0DC;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+.side-krdo{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+
+}
+.a-tag{
+    text-decoration: none;
+    color:white;
+    position: relative;
+    
+}
+
+@media (max-width:1180px){
+   .main-container-contacts{
+    height: 90vh;
+   }
+    .contact-information{
+        
+        width: 400px;
+    }
+    .contact-information .c-i-h1{
+       
+        position: relative;
+        top: 80px;
+        margin: 0;
+        font-size: 4.5em;
+    }
+    .c-i-ul{
+        
+        height: 70%;
+    }
+    .map-contact{
+        width: 65%;
+       
+        height: 97%;
+    }
+    .iframe{
+        height: 102%;
+        width: 99%;
+        margin-top: 0;
+        position: relative;
+        bottom: 10px;
+
+    }
+    .lower-left-side{
+        font-size: 16px;
+    }
+    .lower-right-side{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px){
+    .main-container-contacts{
+        height: 100vh;
+       }
+       .top-contacts-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+       }
+       .contact-information{
+       
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        .c-i-h1{
+           
+            font-size: 3em;
+            position: relative;
+            top: 10px;
+    
+           }
+           .c-i-ul{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           }
+           .c-i-li{
+            list-style-type: none;
+            
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            
+            width: 95%;
+            text-align: justify;
+            padding-left:10px ;
+
+           }
+           .mail{
+            padding-left: 10px;
+            width: 60%;
+            position: relative;
+         
+           }
+           .linktree{
+            position: relative;
+            
+           }
+
+
+        
+       }
+      
+       
+       .map-contact{
+        width: 90%;
+       }
+       .lower-copyright-part{
+      
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .lower-left-side{
+            
+            width: 90%;
+            height: 30%;
+
+        }
+        .lower-right-side{
+            
+            width: 90%;
+            height: 30%;
+        }
+       }
+
+}

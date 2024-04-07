@@ -1,0 +1,184 @@
+.form-container {
+    width: 100%;
+    height: 120vh;
+    
+    background-color: white;
+  }
+  
+  .form-main-container {
+    width: 100%;
+    height: 120vh;
+    
+    display: flex;
+  }
+  
+  .left-form {
+    width: 50%;
+    height: 100%;
+    background-color: #5C2018;
+    background-size: cover;
+  }
+  
+  .right-form {
+    width: 50%;
+    height: 100%;
+    background-color: #f3e0dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .form-header {
+    width: 85%;
+    height: 40px;
+    position: relative;
+    top: 25px;
+    margin-bottom: 45px;
+    color: #5C2018;
+    font-family: 'myFont-5';
+    
+    font-size: 1.2em;
+  }
+  
+  .form-header p {
+    font-size: 21px;
+    margin-top: 12px;
+    font-weight: 500;
+    font-family: 'myFont-2';
+  }
+  
+  .form-header h2 {
+    font-size: 2em;
+    margin: 0;
+  
+  }
+  
+  .form-input-container {
+    width: 80%;
+    margin-top: 40px;
+    height: 600px;
+    border: 1px solid grey;
+    background-color: white;
+    
+   
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 450px;
+    
+  
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    float: left;
+    color: rgb(94, 92, 92);
+  
+   
+  }
+  input::placeholder,textarea::placeholder{
+    font-weight: 500;
+    font-family: 'myFont-5';
+  }
+  
+  input,
+  textarea {
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .submit-contact-form-btn {
+    background-color: #BC4639;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    position: relative;
+    height: 40px;
+    border-radius: 20px;
+    bottom: 20px;
+    font-size: 1.2em;
+    font-family: 'myFont-5';
+  }
+  
+  .submit-contact-form-btn:hover {
+    background-color: #5C2018;
+  }
+  
+  .logo-image-form {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 650px){
+    .form-container{
+      
+        height: 50vh;
+    }
+    .form-main-container{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../Images/background/yahi-daalo.jpg');
+        background-size: cover;
+
+        .left-form{
+            display: none;
+        }
+        .right-form{
+           
+            width: 100%;
+            background-image: url('../Images/background/yahi-daalo.jpg');
+            background-size: cover;
+            
+            .form-header{
+              color: #5c2018;
+            }
+            .form-input-container{
+            
+                width: 90%;
+                background-color: #f3e0dc;
+                .form-parent-container{
+                    
+                    height:100%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                }
+                .form-group{
+                    width: 90%;
+                    .submit-contact-form-btn{
+                        margin-top: 0;
+                        position: relative;
+                        bottom: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+  }
+  

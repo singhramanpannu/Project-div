@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main-services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.service-box {
+  display: flex;
+  width: 90%;
+  height: 320px;
+  margin: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s, transform 0.8s;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #F3E0DC;
+  color: #5C2018;
+
+  &.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  
+  display: flex;
+  align-items: center;
+  
+  border-radius: 20px;
+}
+.image1{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/Architecture.jpg');
+}
+.image2 {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/Engineering-design.jpg');
+  background-size: cover;
+  
+}
+.image3 {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/Interior.jpg');
+  background-size: cover;
+  
+}
+.image4 {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/Landscape.jpg');
+  background-size: cover;
+  
+}
+.image5 {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/site.jpg');
+  background-size: cover;
+  
+}
+.image6 {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/space.jpg');
+  background-size: cover;
+  
+  
+}
+.image7 {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/structure.jpg');
+  background-size: cover;
+  
+}
+.image9 {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/sustainable.jpg');
+  background-size: cover;
+  
+}
+.image10 {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)), url('../Images/background/heritage.jpg');
+  background-size: cover;
+  
+}
+.image-container-serv{
+   width: 100%;
+   height: 450px;
+}
+
+
+.content {
+  width: 66%;
+  height: 96%;
+  box-sizing: border-box;
+  background-color: transparent; /* Adjust as needed */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 20px;
+ 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%; /* Adjust the value based on your requirement */
+  position: absolute;
+  right: 10px;
+  z-index: 10;
+  color: #5C2018;
+}
+.heading-serv{
+  
+  font-size: 2em;
+  position: relative;
+  bottom: 10px;
+  right: 40px;
+  margin: 0;
+  
+  font-family: 'myFont-5';
+  color: #5C2018;
+}
+
+.p-serv{
+  
+  font-size: 1.2em;
+  font-family: 'lora',serif;
+  width: 100%;
+  position: relative;
+  right: 40px;
+  text-align: justify;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  color: #5C2018;
+  
+}
+.service-main-header{
+  
+  margin: 40px;
+  margin-bottom: 10px;
+  font-size: 3.5em;
+  color: #5C2018;
+  position: relative;
+  right: 340px;
+  font-family: 'myFont-5';
+  
+}
+.image-service{
+  width: 40%;
+  height: 270px;
+  border: 1px solid white;
+  border-radius: 20px;
+  z-index: -2;
+  background-color: black;
+  position: relative;
+  left: 10px;
+}
+
+.last-text{
+position: relative;
+left: 450px;
+
+font-size: 2em;
+font-family: 'myfont-2';
+font-weight: 1;
+color: #5C2018;
+}
+.last-text-h4{
+  font-weight: 100;
+}

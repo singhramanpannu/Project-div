@@ -1,0 +1,11 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .paper{
+        height: 30vh;
+    }
+}
+
+@media screen and(max-width:500px) {
+    .h1-for-carousel{
+        font-size: 1em  ;
+    }
+}

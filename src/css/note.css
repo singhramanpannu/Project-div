@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: myFont;
+    src: url('./Metropolis.otf');
+    
+}
+@font-face {
+    font-family: myFont-2;
+    src: url('./BenedictRegular.otf');
+    
+}
+.note-main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3E0DC;
+    color: #5C2018;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+.header-note{
+   
+    font-size: 2.2em;
+    width: 40%;
+    position: relative;
+    color: #5C2018;
+    right: 385px;
+    top: 10px;
+    margin: 0;
+    font-family: 'myFont-2';
+    font-weight: 300;
+
+
+}
+
+.content-cont-note{
+    
+    width: 95%;
+    height: 450px;
+    margin-top:0;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Lora',serif;
+    
+    
+
+
+}
+.div-1-note{
+    
+    width: 25%;
+    height: 85%;
+    border-radius: 10px;
+    background-color: #5C2018;
+    
+    position: relative;
+    left: 30px;
+}
+.div-2-note{
+   
+    width: 65%;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: D4A59A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: transparent;
+
+}
+.div-2-note h4{
+    
+    position: relative;
+    right: 305px;
+    font-size: 1.2em;
+    margin: 0;
+    color: #5C2018;
+    font-family: 'myFont-2';
+}
+.div-2-note p{
+
+    width: 90%;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+    color: #5C2018;
+}
+.ceo-profile-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+   
+  
+
+}
+
+.hello{
+    font-family: 'myFont-2';
+    font-size: 2em;
+    float: left;
+    position: relative;
+    right: 300px;
+    
+    font-weight: 200;
+    color: #5C2018;
+    
+}
+@media (max-width:1180px)
+{
+    .note-main-container{
+        width: 100%;
+        height: 100vh;
+    }
+    .header-note{
+   
+        width: 450px;
+        margin-left: 120px;
+        font-size: 3em;
+        position: relative;
+        bottom: 10px; 
+
+    }
+    .content-cont-note{
+       
+        height: 550px;
+      
+    }
+    .div-1-note{
+        width: 30%;
+        position: relative;
+        bottom: 10px;
+        left: 20px;
+        
+        
+    }
+    
+    .div-2-note .hello{
+       
+       font-size: 2em;
+       position: relative;
+       bottom: 50px;
+       right: 290px;
+     
+    }
+    .div-2-note p{
+       
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px){
+    .note-main-container{
+        display: flex;
+        flex-direction: column;
+        height: 190vh;
+        
+        background-color: #F3E0DC;
+
+    }
+    .content-cont-note{
+        display: flex;
+        flex-direction: column;
+        
+        height: 85%;
+        width: 100%;
+        background-color: #F3E0DC;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .div-1-note{
+        width: 90%;
+        height: 30%;
+        background-color: transparent;
+        margin: 0;
+        
+        
+    }
+    .ceo-profile-pic{
+       
+        width: 80%;
+      
+    }
+    .div-2-note{
+       
+        height: 60%;
+        width: 85%;
+        font-size: 14px;
+        color: #5C2018;
+        margin-right: 10px;
+    }
+    .hello{
+        position: relative;
+        left: -100px;
+        top: -5px;
+        font-family: "myFont-2";
+    }
+    .header-note{
+       
+        width: 80%;
+        font-size: 1em;
+        position: relative;
+        right: 70px;
+        bottom: 10px;
+        color: #5C2018;
+        
+    }
+}
